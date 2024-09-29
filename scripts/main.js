@@ -1,10 +1,9 @@
-// api
-const API_KEY = 'api_key=c12ea553992ea15a55141dc7e94f24db';
+import { API_KEY} from '';
+
 const BASE_URL = 'https://api.themoviedb.org/3';
 const API_URL = BASE_URL + '/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&' + API_KEY;
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
 const searchURL = BASE_URL + '/search/movie?' + API_KEY;
-
 
 const main = document.getElementById('main');
 const form = document.getElementById('form');
