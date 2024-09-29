@@ -1,4 +1,4 @@
-import { API_KEY} from '';
+import {API_KEY} from './api.js';
 
 const BASE_URL = 'https://api.themoviedb.org/3';
 const API_URL = BASE_URL + '/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&' + API_KEY;
