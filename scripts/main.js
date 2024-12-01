@@ -1,4 +1,6 @@
-import {API_KEY} from './api.js';
+import {API_KEYs} from './api.js';
+
+const API_KEY = API_KEYs;
 
 const BASE_URL = 'https://api.themoviedb.org/3';
 const API_URL = BASE_URL + '/discover/movie?sort_by=popularity.desc&'+API_KEY;
